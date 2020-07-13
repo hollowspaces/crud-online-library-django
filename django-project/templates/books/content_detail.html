@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block page_title %}
+	{{books.title}}
+{% endblock page_title %}
+
+{% block book_contents %}
+	<h1>{{books.title}}</h1>
+	<h5>Genre: {{books.genre}} | Author: {{books.author}}</h5>
+	<p align="justify">{{books.content}} </p>
+	<p>Published by admin at {{books.published}}</p>
+{% endblock book_contents %}

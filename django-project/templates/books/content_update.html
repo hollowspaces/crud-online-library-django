@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+	Update Literature
+{% endblock page_title %}
+
+{% block book_contents %}
+	<h1>Update Literature</h1>
+
+	<form method='POST'>
+		{% csrf_token %}
+		<div class="form-group">
+		    <label for="{{form.title.id_for_label}}">{{form.title.label}}:</label>
+		    <input type="text" class="form-control" name="{{form.title.name}}" maxlength="{{form.title.max}}" required id="{{form.title.id_for_label}}" value="{{form.title.value}}">    
+		</div>
+
+		<div class="form-group">
+			<label for="{{form.content.id_for_label}}">{{form.content.label}}:</label>
+			<textarea class="form-control" name="{{form.content.name}}" rows="10" required id="{{form.content.id_for_label}}">{{form.content.value}}</textarea>
+		</div>
+
+		<div class="form-group">
+		    <label for="{{form.genre.id_for_label}}">{{form.genre.label}}:</label>
+		    <input type="text" class="form-control" name="{{form.genre.name}}" maxlength="{{form.genre.max}}" required id="{{form.genre.id_for_label}}" value="{{form.genre.value}}"">    
+		</div>
+
+		<div class="form-group">
+		    <label for="{{form.author.id_for_label}}">{{form.author.label}}:</label>
+		    <input type="text" class="form-control" name="{{form.author.name}}" maxlength="{{form.author.max}}" required id="{{form.author.id_for_label}}" value="{{form.author.value}}">    
+		</div>
+		<button type="submit" class="btn btn-warning">Update</button>
+		<a type="submit" class="btn btn-danger" href="{% url 'books:manage' %}">Cancel</A>
+	</form>
+{% endblock book_contents %}

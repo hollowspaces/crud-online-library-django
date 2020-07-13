@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+	Manage Literature
+{% endblock page_title %}
+
+{% block book_contents %}
+	<h1>Manage Literature</h1>
+	<a type="button" class="btn btn-primary btn-block" href="{% url 'books:add' %}">Add New Literature</a>
+	<table class="table mt-2">
+		<thead class="thead-dark">
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col" width="300px">Title</th>
+				<th scope="col">Genre</th>
+				<th scope="col">Author</th>
+				<th scope="col">Published</th>
+				<th scope="col">Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for books in books_list %}
+			<tr>
+				<th scope="row">{{forloop.counter}}</th>
+				<td>{{books.title}}</td>
+				<td>{{books.genre}}</td>
+				<td>{{books.author}}</td>
+				<td>{{books.published|date}}</td>
+				<td>
+					<a class="btn btn-warning" href="{% url 'books:update' books.id %}">Edit</a>
+					<a class="btn btn-danger" href="{% url 'books:delete' books.id %}">Delete</a>
+				</td>
+			</tr>				
+			{% endfor %}
+
+		</tbody>
+	</table>
+
+{% endblock book_contents %}

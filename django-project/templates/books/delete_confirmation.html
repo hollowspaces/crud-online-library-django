@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+	Manage Literature
+{% endblock page_title %}
+
+{% block book_contents %}
+	<h1>Delete Literature</h1>
+	<p>Are you sure to delete this literature?</p>
+	<h3>{{books.title}}</h3>
+	<p>{{books.published}}</p>
+	<form method="POST">
+		{% csrf_token %}
+		<button type="submit" class="btn btn-outline-dark">Yes</button>
+		<a class="btn btn-outline-danger" href="{% url 'books:manage' %}">No</a>
+	</form>
+{% endblock book_contents %}
