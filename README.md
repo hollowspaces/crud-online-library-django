@@ -39,6 +39,7 @@ Ketika menginstall python di Windows dengan installer berjenis executable file, 
 13. Jalankan server agar dapat membuka website.
 -	Di Linux menggunakan perintah "python manage.py runserver"
 -	Di Windows menggunakan perintah "manage.py runserver"
+
 NOTE : Jika pada percobaan pertama runserver gagal, maka quit server dengan mengetik CTRL-C di terminal/cmd, kemudian lakukan perintah runserver kembali.
 
 14. Jalankan browser Chrome pada komputer.
