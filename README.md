@@ -8,7 +8,7 @@ Guide to run the project
 1. Pastikan komputer sudah terhubung dengan internet dan juga sudah terinstall python versi 3.8.2 / 3.8.3, jika belum silakan download terlebih dahulu.
 -	Bagi pengguna Linux dapat mendownload via terminal dengan perintah "sudo apt install python3"
 -	Untuk pengguna windows dapat mengunduh di situs https://www.python.org/downloads/windows/ dan memilih versi terbaru 3.8.3, atau dapat juga mengunduh python melalui Microsoft Store.
-Note: Ketika menginstall python via executable file, checklist bagian Add Python to PATH agar mempermudah pembuatan virtual environment.
+Ketika menginstall python di Windows dengan installer berjenis executable file, checklist bagian Add Python to PATH agar mempermudah pembuatan virtual environment.
 
 2. Kemudian buat folder baru pada direktori C:/ di Windows atau home/ pada Linux. Misalnya folder dengan nama "Dev"
 
@@ -39,6 +39,7 @@ Note: Ketika menginstall python via executable file, checklist bagian Add Python
 13. Jalankan server agar dapat membuka website.
 -	Di Linux menggunakan perintah "python manage.py runserver"
 -	Di Windows menggunakan perintah "manage.py runserver"
+NOTE : Jika pada percobaan pertama runserver gagal, maka quit server dengan mengetik CTRL-C di terminal/cmd, kemudian lakukan perintah runserver kembali.
 
 14. Jalankan browser Chrome pada komputer.
 15. Ketikkan alamat default server Django pada browser, yaitu: "http://127.0.0.1:8000/" atau "localhost:8000"
