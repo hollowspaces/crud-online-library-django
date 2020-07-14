@@ -3,6 +3,7 @@ Created on Linux Ubuntu 2020. Using python 3.8.2, Django 3.0.8
 
 Online Library named GhouLibrary. 
 Feature: add, manage, dan read literature.
+project link: https://github.com/hollowspaces/project-daa
 
 Guide to run the project
 1. Pastikan komputer sudah terhubung dengan internet dan juga sudah terinstall python versi 3.8.2 / 3.8.3, jika belum silakan download terlebih dahulu.
