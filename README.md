@@ -30,7 +30,7 @@ Note: Ketika menginstall python via executable file, checklist bagian Add Python
 -	Di Linux menggunakan perintah "source env/bin/activate"
 -	Di Windows menggunakan perintah "env\Scripts\activate.bat"
 
-10. Ketika sudah masuk ke dalam virtual environment dan jika ada package pip yang sebelumnya terinstall, maka akan hilang, dan pip menjadi default. Selanjutnya upgrade kembali pip seperti step nomor 6.
+10. Upgrade kembali pip seperti step nomor 6.
 
 11. Install Django versi 3.0.8 dengan perintah "pip install Django==3.0.8"
 
