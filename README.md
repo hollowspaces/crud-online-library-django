@@ -34,7 +34,7 @@ Ketika menginstall python di Windows dengan installer berjenis executable file, 
 
 11. Install Django versi 3.0.8 dengan perintah "pip install Django==3.0.8"
 
-12. Setelah selesai, masuk ke folder django-project dengan perintah "cd django-project"
+12. Setelah selesai install, masuk ke folder C:\Dev\project-daa-master\django-project>, dengan perintah "cd django-project"
 
 13. Jalankan server agar dapat membuka website.
 -	Di Linux menggunakan perintah "python manage.py runserver"
