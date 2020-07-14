@@ -41,4 +41,4 @@ Note: Ketika menginstall python via executable file, checklist bagian Add Python
 -	Di Windows menggunakan perintah "manage.py runserver"
 
 14. Jalankan browser Chrome pada komputer.
-15. Ketik alamat default server Django, yaitu: "http://127.0.0.1:8000/" atau "localhost:8000"
+15. Ketikkan alamat default server Django pada browser, yaitu: "http://127.0.0.1:8000/" atau "localhost:8000"
