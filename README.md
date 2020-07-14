@@ -10,7 +10,7 @@ Guide to run the project
 -	Untuk pengguna windows dapat mengunduh di situs https://www.python.org/downloads/windows/ dan memilih versi terbaru 3.8.3, atau dapat juga mengunduh python melalui Microsoft Store.
 Note: Ketika menginstall python via executable file, checklist bagian Add Python to PATH agar mempermudah pembuatan virtual environment.
 
-2. Kemudian buat folder baru untuk mempermudah pembuatan environment. Misalnya buat folder dengan nama "Dev" pada direktori C:/ di Windows atau home/ pada Linux
+2. Kemudian buat folder baru. Misalnya buat folder dengan nama "Dev" pada direktori C:/ di Windows atau home/ pada Linux
 
 3. Ekstrak project-daa-master ke folder Dev yang sudah dibuat sebelumnya.
 
