@@ -44,4 +44,4 @@ NOTE : Jika pada percobaan pertama runserver gagal, maka quit server dengan meng
 
 14. Jalankan browser Chrome pada komputer.
 15. Ketikkan alamat default server Django pada browser, yaitu: "http://127.0.0.1:8000/" atau "localhost:8000"
-16. Web berhasil dijalankan.
+16. Tunggu hingga tampilan web muncul.
