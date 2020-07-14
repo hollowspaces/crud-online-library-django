@@ -1,4 +1,4 @@
-# project-daa by Puji
+# project-daa UAS by Sri Puji Astuti
 Created on Linux Ubuntu 2020. Using python 3.8.2, Django 3.0.8
 
 Online Library named GhouLibrary. 
